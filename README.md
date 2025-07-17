@@ -18,14 +18,14 @@ Downloaded webpages as HTML files. Sample input files are in `html/` directory.
 `html_json_trafilatura.json`: A JSON file with the extracted main text and metadata.
 
 A sample entry in the JSON output:
-```json
+    ```json
 {
     "title": "Sample News Article",
     "description": "A brief overview of the article content.",
     "main_text": "This is the main body of the article...",
     "filename": "sample.html"
 }
-```
+    ```
 
 ## Environment Setup
 - Python version: **3.6 or higher** is required.
