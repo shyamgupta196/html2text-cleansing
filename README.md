@@ -18,20 +18,22 @@ Downloaded webpages as HTML files. Sample input files are in `html/` directory.
 `html_json_trafilatura.json`: A JSON file with the extracted main text and metadata.
 
 A sample entry in the JSON output:
-    ```json
-{
-    "title": "Sample News Article",
-    "description": "A brief overview of the article content.",
-    "main_text": "This is the main body of the article...",
-    "filename": "sample.html"
-}
-    ```
+  
+  ```json
+  {
+     "title": "Sample News Article",
+     "description": "A brief overview of the article content.",
+     "main_text": "This is the main body of the article...",
+     "filename": "sample.html"
+  }
+  ```
 
 ## Environment Setup
 - Python version: **3.6 or higher** is required.
 - Install the dependencies listed in `requirements.txt`:
+
   ```bash
-  pip install -r requirements.txt
+    pip install -r requirements.txt
   ```
 
 **Dependencies**
@@ -44,9 +46,11 @@ A sample entry in the JSON output:
 
 1. Place your HTML files in the `html/` directory.
 2. Run the script with the following command:
-   ```bash
-   python NewsPlease.py
-   ```
+  
+  ```bash
+    python NewsPlease.py
+  ```
+
 3. Output:
    - `html_json_news.json`: A JSON file containing extracted news information (title, description, main text).
 
@@ -54,9 +58,11 @@ A sample entry in the JSON output:
 
 1. Place your HTML files in the `html/` directory.
 2. Execute the script with:
-   ```bash
-   python Trafilatura.py
-   ```
+  
+  ```bash
+    python Trafilatura.py
+  ```
+
 3. Output:
    - `html_json_trafilatura.json`: A JSON file with the extracted main text and metadata.
 
