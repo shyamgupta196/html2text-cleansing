@@ -7,9 +7,9 @@ When mining text from web pages, an important preprocessing step is to strip the
 By distilling the essence of a web page into a concise and meaningful representation, this toolkit offers a brief yet informative overview of the story or context behind the content. It employs two extraction methods—**NewsPlease** and **Trafilatura**—to ensure flexibility and accuracy across diverse content types. Whether analyzing news articles, building text corpora, or conducting sentiment analysis, this tool serves as a powerful preprocessing resource for social science researchers, computational linguists, and data scientists.
 
 ## Use Cases
-- A **social scientist** is studying media bias in online news articles. They use this toolkit to extract and analyze the main content from a large dataset of HTML files to identify patterns in reporting styles across different sources.
-- A **researcher** is investigating the evolution of public discourse on climate change. Using this tool, they collect text data from various online news sources, facilitating sentiment analysis and topic modeling.
-- A **computational linguist** is building a corpus of web-scraped articles to train models on natural language understanding. They use the toolkit for efficient and accurate extraction of clean, structured text data.
+- To study media bias in online news articles. The toolkit to extract and analyze HTML files to analyze patterns of bias in reporting styles across different sources
+- To investigate the evolution of public discourse on climate change. The textual data is collected as HTML files from various online news sources, facilitating sentiment analysis and topic modeling
+- To build a corpus of web-scraped articles for training models on natural language understanding 
 
 ## Input Data
 Downloaded webpages as HTML files. Sample input files are in `html/` directory.
